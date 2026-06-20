@@ -117,9 +117,9 @@ export default async function LocationPage({ params }: Props) {
           </div>
         </section>
 
-        <FAQ items={locFaqs} eyebrow={`${loc.name} — FAQ`} title={<>Dairy insurance questions for <span className="text-clay">{loc.name}</span></>} background="sand" />
+        <FAQ items={locFaqs} eyebrow={`${loc.name} — FAQ`} title={<>Residential remodeling insurance questions for <span className="text-clay">{loc.name}</span></>} background="sand" />
 
-        <CTABand title={`Insuring dairy farms in ${loc.name} since 2005`} description={`Local knowledge, A-rated markets, and 15-minute quotes. Call ${SITE.phone} or request a quote online.`} />
+        <CTABand title={`Insuring residential remodelers in ${loc.name} since 2005`} description={`Local knowledge, A-rated markets, and 15-minute quotes. Call ${SITE.phone} or request a quote online.`} />
       </main>
       <Footer />
     </>

@@ -1,14 +1,14 @@
 // Centralized site data — used across nav, footer, schema, CTAs
-// Dairy Insurance — dairy farm & dairy operations coverage
+// Residential Remodeler Insurance — insurance for home remodeling contractors
 
 export const SITE = {
-  name: "Dairy Insurance",
-  legalName: "Dairy Insurance (by Contractors Choice Agency)",
-  domain: "dairy-insurance.com",
-  url: "https://dairy-insurance.com",
-  tagline: "Insurance for Dairy Farms & Dairy Operations",
+  name: "Residential Remodeler Insurance",
+  legalName: "Residential Remodeler Insurance (by Contractors Choice Agency)",
+  domain: "residentialremodelerinsurance.com",
+  url: "https://residentialremodelerinsurance.com",
+  tagline: "Insurance for Home Remodeling Contractors",
   description:
-    "Specialized commercial insurance for dairy farms and dairy operations — dairy cattle & livestock mortality, milking parlors and barns, bulk-tank and chiller equipment breakdown with milk spoilage, dairy product liability, manure and runoff pollution, workers' comp, commercial auto for milk tankers, and crop/feed. Licensed all 50 states.",
+    "Specialized commercial insurance for residential remodeling contractors — general liability with completed operations, workers' compensation for remodeling crews, commercial auto, tools and equipment, completed-operations for kitchens/baths/additions, commercial umbrella, and contractors pollution liability for lead and asbestos. Licensed all 50 states.",
   phone: "844-967-5247",
   phoneAlt: "855-336-7189",
   phoneHref: "tel:+18449675247",
@@ -29,23 +29,22 @@ export const SITE = {
   statesLicensed: "All 50 states",
 } as const;
 
-// Niche nouns used in headings, metadata, and component copy
 export const BRAND = {
-  brandShort: "Dairy",
-  brandSub: "Farm Insurance",
-  nicheShort: "dairy farm",
-  nicheShortCap: "Dairy Farm",
-  nichePlural: "dairy farms",
-  nichePluralCap: "Dairy Farms",
-  operator: "dairy operation",
-  operatorCap: "Dairy Operation",
-  industry: "dairy farming",
-  industryCap: "Dairy Farming",
-  audience: "dairy producers",
-  audienceCap: "Dairy Producers",
-  ownerTitle: "dairy farmer",
-  regionPill: "Wisconsin · California · National",
-  serviceSuffix: "Dairy Farms",
+  brandShort: "Remodeler",
+  brandSub: "Insurance",
+  nicheShort: "residential remodeler",
+  nicheShortCap: "Residential Remodeler",
+  nichePlural: "residential remodelers",
+  nichePluralCap: "Residential Remodelers",
+  operator: "remodeling operation",
+  operatorCap: "Remodeling Operation",
+  industry: "residential remodeling",
+  industryCap: "Residential Remodeling",
+  audience: "home remodeling contractors",
+  audienceCap: "Home Remodeling Contractors",
+  ownerTitle: "remodeling contractor",
+  regionPill: "Texas · California · National",
+  serviceSuffix: "Residential Remodelers",
 } as const;
 
 export const NAV_LINKS = [
@@ -59,108 +58,108 @@ export const NAV_LINKS = [
 
 export const SERVICES = [
   {
-    slug: "livestock-mortality",
-    title: "Dairy Cattle & Livestock Mortality",
-    short: "Protect the herd that drives your income",
-    description:
-      "The coverage that defines a dairy's risk. Insures your milking cows, heifers, calves, and registered breeding stock against death from accident, disease, theft, and disaster — including named peril and full-mortality options on high-value animals.",
-    icon: "Milk",
-    keywords: ["dairy cattle insurance", "livestock mortality insurance", "dairy cow mortality coverage", "cattle death loss insurance"],
-  },
-  {
-    slug: "farm-property",
-    title: "Farm Property & Buildings",
-    short: "Barns, milking parlors, silos & feed storage",
-    description:
-      "All-risk coverage for the dairy complex — freestall barns, milking parlors and holding areas, commodity sheds, commodity and bunker silos, feed storage, and the contents and inventory inside them. Built for livestock and manure exposures.",
-    icon: "Building2",
-    keywords: ["dairy farm property insurance", "barn insurance", "milking parlor coverage", "farm building insurance dairy"],
-  },
-  {
-    slug: "equipment-spoilage",
-    title: "Equipment Breakdown & Milk Spoilage",
-    short: "Milking systems, bulk tanks & chillers",
-    description:
-      "Covers mechanical or electrical breakdown of the equipment your operation depends on — milking systems, plate coolers, bulk tanks, compressors and chillers — plus the milk and product spoilage that follows when cooling or processing fails.",
-    icon: "Gauge",
-    keywords: ["dairy equipment breakdown insurance", "milk spoilage insurance", "bulk tank coverage", "chiller breakdown dairy"],
-  },
-  {
-    slug: "dairy-product-liability",
-    title: "Dairy Product Liability",
-    short: "For milk and dairy products you ship",
-    description:
-      "Coverage for bodily injury or property damage arising from contaminated, mislabeled, or defective milk and dairy products after they leave your farm or creamery — including recall costs and defense when a foodborne-illness or adulteration claim is made.",
-    icon: "FlaskConical",
-    keywords: ["dairy product liability insurance", "milk contamination insurance", "dairy recall coverage", "food liability dairy farm"],
-  },
-  {
     slug: "general-liability",
     title: "General Liability Insurance",
-    short: "Premises, agri-tourism & daily operations",
+    short: "GL with completed operations for remodelers",
     description:
-      "Third-party bodily injury and property damage protection for farm visitors, farm tours and agri-tourism, deliveries, custom heifer raising, and the day-to-day operations of running a working dairy.",
+      "The foundation of every remodeling contractor's program. Covers third-party bodily injury and property damage during remodeling operations — and the completed-operations tail covering latent defect and water-intrusion claims that arise after kitchens, bathrooms, and additions are completed.",
     icon: "ShieldCheck",
-    keywords: ["dairy farm general liability", "agritourism insurance", "farm premises liability", "dairy GL insurance"],
+    keywords: ["residential remodeler general liability", "home remodeling contractor GL", "remodeling completed operations", "residential contractor liability"],
   },
   {
     slug: "workers-compensation",
     title: "Workers' Compensation",
-    short: "For milking crews, feeders & herdsmen",
+    short: "For remodeling crews and trade workers",
     description:
-      "Coverage for the real injury patterns in dairy work — animal-handling and trampling injuries, milking-parlor slip and crush injuries, equipment and PTO incidents, and chemical and manure-exposure claims. Proper class codes for dairy labor.",
+      "Residential remodeling involves real injury risk — falls from heights during addition framing, tool injuries, and lifting exposures. We place workers' comp with carriers that understand remodeling operations and assign correct class codes for remodeling labor.",
     icon: "HardHat",
-    keywords: ["dairy workers compensation", "farm labor workers comp", "dairy worker injury insurance", "agricultural workers comp dairy"],
+    keywords: ["remodeling workers compensation", "home remodeler workers comp", "remodeling crew injury insurance", "residential contractor workers comp"],
   },
   {
     slug: "commercial-auto",
-    title: "Commercial Auto & Trucking",
-    short: "Milk tankers, feed trucks & farm vehicles",
+    title: "Commercial Auto Insurance",
+    short: "Work trucks, vans, and trailers for remodeling crews",
     description:
-      "Coverage for the milk tankers, feed and commodity trucks, pickup trucks, tractors, and equipment you run on public roads — including hired and non-owned auto when employees use their own vehicles on dairy business.",
+      "Coverage for the trucks, vans, and trailers your remodeling crews drive to every job — including hired and non-owned auto when employees use personal vehicles for remodeling business.",
     icon: "Truck",
-    keywords: ["dairy commercial auto", "milk tanker insurance", "feed truck insurance", "farm vehicle coverage dairy"],
+    keywords: ["remodeling contractor auto insurance", "home remodeler truck coverage", "remodeling vehicle insurance", "residential contractor commercial auto"],
   },
   {
-    slug: "pollution-environmental",
-    title: "Pollution & Environmental Liability",
-    short: "Manure, runoff & agrichemical exposure",
+    slug: "tools-equipment",
+    title: "Tools & Equipment Coverage",
+    short: "Power tools, saws, and remodeling equipment",
     description:
-      "Covers the environmental exposure every dairy carries — manure storage and lagoon failure, nutrient and fertilizer runoff, fuel and chemical leaks, and the cleanup and third-party claims that follow a release into soil or water.",
+      "Inland marine coverage for power tools, table saws, tile saws, nail guns, compressors, and remodeling equipment your crews carry to every job. Covers theft, accidental damage, and mysterious disappearance at job sites, in transit, and in storage.",
+    icon: "Wrench",
+    keywords: ["remodeling tools equipment insurance", "home remodeler tools coverage", "remodeling equipment theft", "contractor inland marine remodeling"],
+  },
+  {
+    slug: "completed-operations",
+    title: "Completed-Operations Coverage",
+    short: "Long-tail liability for kitchen, bath, and addition work",
+    description:
+      "Completed-operations coverage extends your GL protection to cover claims arising after a remodeling project is done — water intrusion from improperly installed showers, structural defects in additions, and other latent defects that surface months or years after project completion.",
+    icon: "Award",
+    keywords: ["remodeling completed operations", "home remodeling latent defect coverage", "contractor completed operations insurance", "remodeler long-tail liability"],
+  },
+  {
+    slug: "commercial-umbrella",
+    title: "Commercial Umbrella Insurance",
+    short: "Excess limits above GL and auto",
+    description:
+      "An umbrella extends your GL and auto limits for remodeling contractors who work on high-value homes, engage with general contractors who require higher combined limits, or face significant completed-operations accumulation across many projects.",
+    icon: "Umbrella",
+    keywords: ["remodeling contractor umbrella", "home remodeler excess liability", "residential remodeling umbrella policy", "contractor umbrella insurance"],
+  },
+  {
+    slug: "commercial-property",
+    title: "Commercial Property Insurance",
+    short: "Office, shop, and material storage",
+    description:
+      "Covers your office, shop, and storage yard — including inventory of materials, cabinetry, fixtures, and equipment. Important for remodelers who stage significant materials at their location between projects.",
+    icon: "Building2",
+    keywords: ["remodeling contractor property insurance", "home remodeler office coverage", "remodeling business property", "residential contractor property"],
+  },
+  {
+    slug: "contractors-pollution-liability",
+    title: "Contractors Pollution Liability",
+    short: "Lead, asbestos, and mold exposure",
+    description:
+      "Residential remodeling in older homes creates real pollution exposure — lead paint disturbance, asbestos in drywall or floor tiles, and mold remediation. CPL covers third-party bodily injury and property damage from these pollutant releases during remodeling work.",
     icon: "Droplets",
-    keywords: ["dairy pollution liability", "manure runoff insurance", "farm environmental liability", "agricultural pollution coverage dairy"],
+    keywords: ["remodeling CPL", "lead paint contractor insurance", "asbestos remodeling liability", "residential remodeler pollution coverage"],
   },
 ] as const;
 
 export const LOCATIONS = [
-  { slug: "wisconsin", name: "Wisconsin", region: "America's Dairyland", blurb: "The heart of U.S. dairy. We insure Wisconsin operations from rotational-grazing herds in the Driftless Region to large modern freestall and parlor dairies — with class codes and markets built for Wisconsin dairy labor and manure regulations." },
-  { slug: "california", name: "California", region: "Central Valley · North Coast", blurb: "The largest dairy state by production. Coverage built for California's big-herd Central Valley dairies — water-quality and air-emissions exposure, large parlor equipment values, and the state's strict nutrient-management rules." },
-  { slug: "pacific-northwest", name: "Pacific Northwest", region: "Oregon · Washington · Idaho", blurb: "Pasture-based and confinement dairies across the PNW. Programs sized for organic and grass-fed herds, large feed inventories, and the wet-climate manure and runoff exposures of coastal and inland operations." },
-  { slug: "northeast", name: "Northeast & Mid-Atlantic", region: "NY · PA · VT · New England", blurb: "From New York and Pennsylvania to Vermont's organic creameries. Coverage for the region's smaller-herd, higher-value registered stock, bottling and on-farm processing, and seasonal pasture operations." },
-  { slug: "upper-midwest", name: "Upper Midwest", region: "Minnesota · Michigan · Iowa", blurb: "Heritage dairy country across the Upper Midwest. Programs for Minnesota, Michigan, and Iowa dairies — from family tie-stall barns to expanding parlor operations, with feed and forage coverage sized for cold-climate storage." },
-  { slug: "southwest", name: "Texas & the Southwest", region: "TX · NM · AZ", blurb: "Fast-growing Southwest dairy regions in the Texas Panhandle and New Mexico. Coverage for large-herd desert dairies — high water-use exposure, large lagoon systems, and feed and commodity operations under arid-climate conditions." },
-  { slug: "southeast", name: "U.S. Southeast", region: "Florida · Georgia · the Carolinas", blurb: "Southeast dairies facing heat-stress, hurricane, and high-rainfall manure exposures. Programs built for Florida, Georgia, and Carolina operations — including storm and flood-surge considerations for coastal and central dairies." },
-  { slug: "plains", name: "Great Plains", region: "Kansas · Nebraska · the Dakotas", blurb: "Plains-state dairies integrating with feed and forage operations. Coverage for Kansas, Nebraska, and Dakota dairies — herd mortality, large feed inventories, and the equipment and trucking exposure of expansive operations." },
+  { slug: "texas", name: "Texas", region: "Dallas · Houston · Austin", blurb: "Texas's booming residential market drives high remodeling volume — kitchen updates, master suite additions, and full home renovations. We build insurance programs for Texas remodeling contractors from solo operators to multi-crew firms." },
+  { slug: "california", name: "California", region: "LA · Bay Area · San Diego", blurb: "California's high-value residential market creates significant remodeling contractor liability exposure. We insure California remodelers with programs that address the state's strict contractor licensing requirements and high-value project exposure." },
+  { slug: "southeast", name: "Southeast", region: "FL · GA · NC · SC", blurb: "Southeast residential remodeling contractors handle storm restoration additions, high-humidity bathroom renovations, and the diverse project mix of a growing region. We build programs for SE remodelers across the full residential scope." },
+  { slug: "midwest", name: "Midwest", region: "IL · OH · MI · IN", blurb: "Midwest remodeling contractors work through renovation seasons with varied project types — basements, kitchens, additions, and full gut renovations. We place programs for residential remodelers across the Midwest." },
+  { slug: "southwest", name: "Southwest", region: "AZ · NV · NM · CO", blurb: "Southwest remodeling contractors handle high-desert home renovations and additions in fast-growing markets. We insure residential remodelers across Arizona, Nevada, New Mexico, and Colorado." },
+  { slug: "mountain-west", name: "Mountain West", region: "CO · UT · ID · MT", blurb: "Mountain-region residential remodelers work on high-value vacation homes and primary residences with unique structural and material challenges. We build programs for remodelers across the Mountain West." },
+  { slug: "northeast", name: "Northeast", region: "NY · NJ · CT · MA", blurb: "Northeast remodeling contractors work on some of the highest-value residential projects in the country — urban brownstone renovations, historic home restorations, and high-end addition work. We place comprehensive programs for Northeast remodelers." },
+  { slug: "pacific-west", name: "Pacific West", region: "CA · OR · WA", blurb: "Pacific-region residential remodelers navigate California's strict licensing landscape and high-value project exposure. We insure home remodeling contractors across the West Coast with markets that understand the regional risk environment." },
 ] as const;
 
 export const CREDENTIALS = [
   { label: "Licensed in all 50 states", icon: "MapPin" },
   { label: "Founded 2005 — 20+ years", icon: "CalendarCheck" },
-  { label: "Dairy-knowledgeable agents", icon: "HardHat" },
+  { label: "Remodeling-knowledgeable agents", icon: "HardHat" },
   { label: "15-minute quote turnaround", icon: "Timer" },
   { label: "2-hour claims response", icon: "Zap" },
   { label: "A.M. Best A+ carrier partners", icon: "Award" },
 ] as const;
 
 export const STATS = [
-  { value: 240, suffix: "+", label: "Dairy operations insured nationwide", prefix: "" },
-  { value: 20, suffix: "+", label: "Years insuring farm operations", prefix: "" },
+  { value: 350, suffix: "+", label: "Residential remodelers insured nationwide", prefix: "" },
+  { value: 20, suffix: "+", label: "Years insuring trade contractors", prefix: "" },
   { value: 15, suffix: " min", label: "Average quote turnaround", prefix: "" },
   { value: 50, suffix: "", label: "States licensed & writing", prefix: "" },
 ] as const;
 
 export const TESTIMONIALS = [
-  { quote: "When we lost registered Jerseys in a barn fire, our old policy undervalued the herd and shorted us on the building. Dairy Insurance rebuilt the parlor at replacement cost and the livestock mortality actually reflected what those animals were worth. Night and day.", name: "Marlene S.", role: "Herd Owner", location: "Wisconsin" },
-  { quote: "A chiller failed overnight and we lost a full bulk tank. The equipment-breakdown and spoilage coverage paid the milk and the repair fast — no arguing about whether a compressor counts. They get that downtime and spoilage are the real costs on a dairy.", name: "Carl R.", role: "Operations Manager", location: "California" },
-  { quote: "Two carriers had declined us over manure-runoff and lagoon exposure. These folks understood our nutrient-management plan, documented it, and placed an A-rated environmental and property program. Real dairy knowledge, not a generic farm quote.", name: "Diane K.", role: "Co-op Member", location: "New York" },
+  { quote: "We did a bathroom renovation and 18 months later the homeowner claimed water intrusion from the shower pan. The completed-ops coverage on our GL defended the claim and paid — no fight, no gap. This agency builds programs with the tail that actually matters for remodelers.", name: "Sandra M.", role: "Remodeling Contractor", location: "Texas" },
+  { quote: "We were working on a 1960s kitchen gut and disturbed some asbestos floor tile. The CPL policy covered the cleanup and the third-party claim from the neighbor who claimed exposure. I didn't even know remodelers needed CPL until this agency explained the risk.", name: "Tom B.", role: "Kitchen & Bath Remodeler", location: "Ohio" },
+  { quote: "My power tool trailer was broken into at a job site over the weekend — table saw, compressors, tile saw, the works. The inland marine paid out fast and I was back running the next Monday. Other agents never even mentioned tools coverage. This team knows what remodelers actually need.", name: "Jessica R.", role: "Home Renovation Contractor", location: "Florida" },
 ] as const;

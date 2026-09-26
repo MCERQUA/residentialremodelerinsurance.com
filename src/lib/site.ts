@@ -158,8 +158,3 @@ export const STATS = [
   { value: 50, suffix: "", label: "States licensed & writing", prefix: "" },
 ] as const;
 
-export const TESTIMONIALS = [
-  { quote: "We did a bathroom renovation and 18 months later the homeowner claimed water intrusion from the shower pan. The completed-ops coverage on our GL defended the claim and paid — no fight, no gap. This agency builds programs with the tail that actually matters for remodelers.", name: "Sandra M.", role: "Remodeling Contractor", location: "Texas" },
-  { quote: "We were working on a 1960s kitchen gut and disturbed some asbestos floor tile. The CPL policy covered the cleanup and the third-party claim from the neighbor who claimed exposure. I didn't even know remodelers needed CPL until this agency explained the risk.", name: "Tom B.", role: "Kitchen & Bath Remodeler", location: "Ohio" },
-  { quote: "My power tool trailer was broken into at a job site over the weekend — table saw, compressors, tile saw, the works. The inland marine paid out fast and I was back running the next Monday. Other agents never even mentioned tools coverage. This team knows what remodelers actually need.", name: "Jessica R.", role: "Home Renovation Contractor", location: "Florida" },
-] as const;
